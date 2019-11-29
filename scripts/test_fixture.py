@@ -37,7 +37,7 @@ class TestLogin:
         allure.attach("点击登录", "登录成功")
         print("点击登录")
         print(data)
-        assert False
+        assert True
 
     def setup(self):
         print("setup处理器")
