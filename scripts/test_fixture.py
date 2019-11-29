@@ -3,7 +3,6 @@ import allure
 
 
 class TestLogin:
-
     def test_login_1(self,data):
         """记住密码登录"""
         allure.attach("输入用户名","输入用户名username_1")
@@ -14,8 +13,6 @@ class TestLogin:
         print("点击登录")
         print(data)
         assert True
-
-
     def test_login_2(self, data):
         """记住密码登录"""
         allure.attach("输入用户名", "输入用户名username_2")
@@ -26,8 +23,6 @@ class TestLogin:
         print("点击登录")
         print(data)
         assert True
-
-
     def test_login_3(self, data):
         """记住密码登录"""
         allure.attach("输入用户名", "输入用户名username_3")
